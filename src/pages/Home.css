@@ -1,0 +1,14 @@
+.product-card {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .product-card:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  /* Add this to remove the underline from the links */
+.product-card a,
+.product-card a:hover {
+  text-decoration: none;
+}

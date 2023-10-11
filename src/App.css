@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
-}
+/* src/App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Change text color to white */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.navbar {
+  background-color: #007bff; /* Navbar background color */
+  color: white; /* Text color */
+  font-family: 'Arial', sans-serif; /* Font family */
+  /* Add more styles as needed */
 }
 
-.App-link {
-  color: #61dafb;
+/* Change text color for the links */
+.navbar .nav-link {
+  color: white !important; /* Override default link color */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Change font style for the brand (logo) */
+.navbar .navbar-brand {
+  font-family: 'Times New Roman', serif; /* Font family for the brand */
+  font-weight: bold; /* Font weight */
+  /* Add more styles as needed */
+}
+.navbar-container .search-form {
+  display: flex;
+  align-items: center;
 }
