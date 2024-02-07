@@ -1,14 +1,17 @@
 // src/pages/Cart.js
 
-import React, { useContext } from 'react';
-import { Button, Table } from 'react-bootstrap';
-import { CartContext } from '../context/CartContext';
+import React, { useContext } from "react";
+import { Button, Table } from "react-bootstrap";
+import { CartContext } from "../context/CartContext";
 
 function Cart() {
   const { cartItems, removeFromCart } = useContext(CartContext);
 
-  const totalCost = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
- 
+  const totalCost = cartItems.reduce(
+    (total, item) => total + item.price * item.quantity,
+    0
+  );
+
   return (
     <div className="cart">
       <h2>Shopping Cart</h2>

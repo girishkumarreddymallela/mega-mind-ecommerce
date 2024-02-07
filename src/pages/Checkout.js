@@ -1,17 +1,15 @@
 // src/pages/Checkout.js
 
-import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Form, Button } from "react-bootstrap";
 
 function Checkout() {
-
-  
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    address: '',
-    city: '',
-    zip: '',
+    name: "",
+    email: "",
+    address: "",
+    city: "",
+    zip: "",
   });
 
   const handleChange = (e) => {
@@ -21,9 +19,9 @@ function Checkout() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Dummy logic for now (replace with real checkout logic later)
-    console.log('Form data submitted:', formData);
-    alert('Order placed successfully!');
+
+    console.log("Form data submitted:", formData);
+    alert("Order placed successfully!");
   };
 
   return (

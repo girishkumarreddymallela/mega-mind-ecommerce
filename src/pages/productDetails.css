@@ -1,0 +1,35 @@
+.ccontainer {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px;
+  margin: auto auto;
+}
+
+.A0 {
+  margin: 0 0 15px;
+  text-align: center;
+  color: #333;
+}
+
+.A1 {
+  text-align: center;
+}
+
+.A2 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.A3 {
+  margin: 0 0 10px;
+  color: #777;
+}
+
+.A4 {
+  margin: 0;
+  color: #555;
+}
